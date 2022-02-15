@@ -1,0 +1,31 @@
+﻿*{
+	box-sizing:border-box;
+	
+}
+
+body{
+	margin:0;
+	background-color: #ffe6e6;
+}
+.image-grid{
+	display:grid;
+	grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+	/*grid-template-rows:auto; */
+	gap:1px;
+	/*num-cols:4; 
+	row-height:300px; 
+	padding:var(--gap);*/	
+	
+}
+ img{
+	display:block;
+	box-shadow:-1px 0px 0px rgba(0,0,0,0.06);
+	width:100%;
+	
+}
+
+.im_*{
+	
+	background-color:green;
+	
+}
